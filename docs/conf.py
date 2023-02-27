@@ -52,9 +52,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'cookiecutter-pypackage'
-copyright = '2015, Audrey Roy Greenfeld'
-author = 'Audrey Roy Greenfeld'
+project = 'cookiecutter-ecosystem-pypkg'
+copyright = '2023 Igor P. de Oliveira'
+author = 'Olivier Grisel, Igor P. de Oliveira'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -206,7 +206,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cookiecutter-pypackagedoc'
+htmlhelp_basename = 'cookiecutter-ecosystem-pypkg'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -228,8 +228,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'cookiecutter-pypackage.tex', 'cookiecutter-pypackage Documentation',
-   'Audrey Roy Greenfeld', 'manual'),
+  (master_doc, 'cookiecutter-ecosystem-pypkg.tex', 'cookiecutter-ecosystem-pypkg Documentation',
+   'Igor P. de Oliveira', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -258,7 +258,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cookiecutter-pypackage', 'cookiecutter-pypackage Documentation',
+    (master_doc, 'cookiecutter-ecosystem-pypkg', 'cookiecutter-ecosystem-pypkg Documentation',
      [author], 1)
 ]
 
@@ -272,8 +272,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'cookiecutter-pypackage', 'cookiecutter-pypackage Documentation',
-   author, 'cookiecutter-pypackage', 'One line description of project.',
+  (master_doc, 'cookiecutter-ecosystem-pypkg', 'cookiecutter-ecosystem-pypkg Documentation',
+   author, 'cookiecutter-ecosystem-pypkg', 'One line description of project.',
    'Miscellaneous'),
 ]
 
